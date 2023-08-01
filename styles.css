@@ -1,0 +1,469 @@
+.my-navbar{
+    background-color:black;
+}
+.my-navbar{
+    
+    width: 20%;
+height: 100vw;
+
+
+
+}
+.home{
+    margin-inline: auto;
+    padding-left:2vw;
+    color:white;
+   
+    
+}
+.home>p{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-top:7px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.search{
+    margin-inline: auto;
+    padding-left:2vw;
+    color:white;
+    
+}
+.search>p{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-top:7px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.library{
+    margin-inline: auto;
+    padding-left:2vw;
+    color:white;
+    
+}
+.library>p{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-top:7px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.my-playlist{
+    margin-inline: auto;
+    padding-left:2vw;
+    color:white;
+    margin-top: 30px;
+    
+}
+.my-playlist>p{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-top:7px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.playlistimg{
+    background-color: white;
+    width: 29.645px;
+height: 29.645px;
+flex-shrink: 0;
+    
+
+}
+.liked{
+    margin-inline: auto;
+    padding-left:2vw;
+    color:white;
+    
+    
+}
+.liked>p{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-top:7px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.heart{
+    
+    
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+width: 30px !important;
+height: 29.645px;
+margin-left: 0px ;
+align-items: center !important;
+justify-content: center !important;
+border-radius: 2px;
+
+}
+.episodes{
+    margin-inline: auto;
+    padding-left:2vw;
+    color:white;
+    margin-bottom: 30px;
+    
+    
+}
+.episodes>p{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-top:7px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.episodeimg{
+    
+    
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+width: 30px !important;
+height: 29.645px;
+margin-left: 0px ;
+align-items: center !important;
+justify-content: center !important;
+border-radius: 2px;
+
+}
+li{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.997px;
+list-style: none;
+margin-bottom: 18.53px;
+}
+.list{
+    
+    margin-top: 7px;
+}
+.install{
+    margin-inline: auto;
+    padding-left:2vw;
+    color:white;
+    margin-top: 30px;
+    
+}
+.install>p{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-top:7px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.my-page{
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+  width:90%;
+   
+   padding: 1rem 1rem;
+   
+   
+}
+.arrows{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    fill: #131313;
+    border-radius: 50px;
+    position: fixed;
+    top: 20px;
+    
+}
+.arrows>arrowright{
+    position: relative;
+}
+.body{
+    display: flex;
+
+}
+#angel{
+    color: white;
+    position: fixed;
+    top: 25px;
+    right:75px;
+}
+
+.mprofile{
+    position: fixed;
+    top:20px;
+    right:150px
+   
+    
+}
+#good{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+width: 280px;
+height: 56px;
+flex-shrink: 0;
+margin-top: 150px;
+margin-left: 25px;
+}
+.mycards{
+    display:flex;
+    
+    width: 362px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 4px;
+background-color: white ;
+margin-left: 200px;
+}
+.likedimg{
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%); 
+    border-radius: 4px 0px 0px 4px;
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+}
+.heart2{
+    
+    
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+    width:100px;
+    height: 100px;
+    flex-shrink: 0;
+   
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 2px;
+    
+    }
+    .cardp>p{
+        color: #FFF;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;
+
+    }
+    .cardp{
+        border-radius: 4px;
+background: #303030;
+height: 100px;
+align-items: center;
+width:262px;
+    }
+    .hero{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       
+        
+        }
+h1{
+        color: #FFF;
+font-family: DM Sans;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.16px;
+       }
+       .container-2{
+        
+       }
+.cardss{
+
+}
+.cardss>p{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.42px;
+margin-top: 1px;
+}
+#names{
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.15px;
+}
+.hero2{
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+     flex-wrap:wrap;
+     }
+     .musicPlayer{
+        position: fixed;
+        bottom: 30px;
+        width: 100%;
+        height: 8vh;
+        flex-shrink: 0;
+        background:#181818;;
+
+
+     }
+     .f-img{
+        width: 62.967px;
+        height: 70px;
+        flex-shrink: 0; 
+     }
+     .f-left>p{
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.9px; 
+        margin-top: 2px;
+        margin-left: 35px;
+        margin-right: 20px;
+     }
+     .fcenter{
+        position:fixed;
+        bottom: 30px;
+        left:50%;
+     }
+     #neff{
+        color: #B3B3B3;
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.75px; 
+     }
+     .line{
+        border-radius: 2.5px;
+        background: #535353;  
+        width: 511px;
+        height: 5px;
+        flex-shrink: 0;
+        color:white;
+        
+        position: fixed;
+        bottom: 15px;
+        right: 625px;
+
+        
+             }
+     #time{
+        color: #C4C4C4;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.56px;
+position: fixed;
+bottom: px;
+right: 61%;
+
+     }
+     #time2{
+        position:fixed;
+        
+        color: #C4C4C4;
+        right:570px;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.56px;
+     }
+     .f-right{
+        gap: 14px;
+        position: relative;
+        margin-right: 3vw;
+        margin-top: 1vw;
+     }
+     .line2{
+        border-radius: 2.5px;
+        background: #C4C4C4;
+        width: 104.346px;
+height: 5px;
+flex-shrink: 0;
+
+     }
+     .mute{
+        width: 21.589px;
+    height: 24px;
+    flex-shrink: 0;
+   
+     }
+     .st{
+        position: relative;
+        top: 0px;
+        left: 0px;
+     }
+     .overlay{
+        position:fixed;
+        bottom: 18px;
+     }
+     .greenf{
+        width: 1728px;
+height: 30px;
+flex-shrink: 0;
+background: #1ED760;
+position:fixed;
+bottom: 0px;
+width: 100vw;
+     }
+     #fwrit{
+        color: #000;
+        font-family: DM Sans;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;  
+        position: fixed;
+        bottom: px;
+     }
+     *{
+        margin:0px;
+        padding:0px;
+     }
+     
+     
