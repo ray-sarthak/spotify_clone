@@ -7,8 +7,8 @@ html{
 .my-navbar{
     
     width: 20%;
-height: 100vw;
-overflow-y: auto;
+height: 150vh;
+overflow-y: hidden;
 position: sticky;
 left: 0px;
 
@@ -20,8 +20,12 @@ left: 0px;
     margin-inline: auto;
     padding-left:2vw;
     color:white;
-   
+    transition: all 0.5s ease-out; 
     
+}
+.home:hover{
+    color:#1ED760;
+    background-color: #535353;
 }
 .home>p{
     justify-content: center;
@@ -39,7 +43,11 @@ letter-spacing: -1.14px;
     margin-inline: auto;
     padding-left:2vw;
     color:white;
-    
+    transition: all 0.5s ease-out; 
+}
+.search:hover{
+    color:#1ED760;
+    background-color: #535353;
 }
 .search>p{
     justify-content: center;
@@ -57,7 +65,12 @@ letter-spacing: -1.14px;
     margin-inline: auto;
     padding-left:2vw;
     color:white;
+    transition: all 0.5s ease-out; 
     
+}
+.library:hover{
+    color:#1ED760;
+    background-color: #535353;
 }
 .library>p{
     justify-content: center;
@@ -76,7 +89,12 @@ letter-spacing: -1.14px;
     padding-left:2vw;
     color:white;
     margin-top: 30px;
+    transition: all 0.5s ease-out; 
     
+}
+.my-playlist:hover{
+    color:#1ED760;
+    background-color: #535353;
 }
 .my-playlist>p{
     justify-content: center;
@@ -102,8 +120,13 @@ flex-shrink: 0;
     margin-inline: auto;
     padding-left:2vw;
     color:white;
+    transition: all 0.5s ease-out; 
     
     
+}
+.liked:hover{
+    color:#1ED760;
+    background-color: #535353;
 }
 .liked>p{
     justify-content: center;
@@ -134,8 +157,12 @@ border-radius: 2px;
     padding-left:2vw;
     color:white;
     margin-bottom: 30px;
+    transition: all 0.5s ease-out; 
     
-    
+}
+.episodes:hover{
+    color:#1ED760;
+    background-color: #535353;
 }
 .episodes>p{
     justify-content: center;
@@ -171,6 +198,11 @@ line-height: normal;
 letter-spacing: -0.997px;
 list-style: none;
 margin-bottom: 18.53px;
+transition: all 0.5s ease-out; 
+}
+li:hover{
+    
+    background-color: #535353;
 }
 .list{
     
@@ -213,7 +245,9 @@ letter-spacing: -1.14px;
     position: fixed;
     top: 20px;
     
+    
 }
+
 .arrows>arrowright{
     position: relative;
 }
@@ -258,6 +292,12 @@ flex-shrink: 0;
 border-radius: 4px;
 background-color: white ;
 margin-left: 200px;
+transition: all 0.5s ease-in-out; 
+}
+.my-cards:hover{
+   width:400px ;
+   height: 150px;
+   box-shadow: 10px 10px 5px #5bf0b4;
 }
 .likedimg{
     background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%); 
@@ -315,7 +355,10 @@ letter-spacing: -1.16px;
         
        }
 .cardss{
-
+    transition: all 0.5s ease-in-out; 
+}
+.cardss:hover{
+    box-shadow:  10px 10px 10px 5px #5bf0b4;
 }
 .cardss>p{
     color: #FFF;
@@ -489,6 +532,7 @@ border: 0px;
         margin:0px;
         padding:0px;
      }
+     
 
      
      
