@@ -1,3 +1,6 @@
+html{
+    background-color:black;
+}
 .my-navbar{
     background-color:black;
 }
@@ -5,6 +8,10 @@
     
     width: 20%;
 height: 100vw;
+overflow-y: auto;
+position: sticky;
+left: 0px;
+
 
 
 
@@ -195,6 +202,7 @@ letter-spacing: -1.14px;
    padding: 1rem 1rem;
    
    
+   
 }
 .arrows{
     width: 40px;
@@ -339,7 +347,9 @@ letter-spacing: 0.15px;
         width: 100%;
         height: 8vh;
         flex-shrink: 0;
-        background:#181818;;
+        background:#181818;
+        margin-bottom: px;
+
 
 
      }
@@ -418,6 +428,8 @@ letter-spacing: 0.56px;
         position: relative;
         margin-right: 3vw;
         margin-top: 1vw;
+        flex-shrink: 0;
+        
      }
      .line2{
         border-radius: 2.5px;
@@ -443,6 +455,8 @@ flex-shrink: 0;
         bottom: 18px;
      }
      .greenf{
+        display: flex;
+        overflow-y: hidden;
         width: 1728px;
 height: 30px;
 flex-shrink: 0;
@@ -450,6 +464,9 @@ background: #1ED760;
 position:fixed;
 bottom: 0px;
 width: 100vw;
+align-items: center;
+padding-top: 1px;
+border: 0px;
      }
      #fwrit{
         color: #000;
@@ -458,12 +475,21 @@ width: 100vw;
         font-style: normal;
         font-weight: 700;
         line-height: normal;  
-        position: fixed;
-        bottom: px;
+        margin-left: 1vw;
+        padding-top: 1vw;
+        
+     }
+     .greenf>img{
+        margin-left: 1vw;
+        height: 2vh;
+        margin-left: 70vw;
+        margin-top: 0px;
      }
      *{
         margin:0px;
         padding:0px;
      }
+
+     
      
      
